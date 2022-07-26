@@ -11,3 +11,7 @@
     border: 4px solid peru;
     /* visibility: hidden; */
 }
+.images .logo{
+    width: 100px;
+    height: 100px;
+}
