@@ -1,0 +1,52 @@
+body{
+    background-image: url("images/wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+
+}
+.calender{
+    margin: auto;
+    max-width: 800px;
+    font-family: serif;
+    font-weight: bold;
+    color: black;
+    margin: 10% 10%;
+}
+.month{
+   text-align: center;
+   background: lightgoldenrodyellow;
+   font-size: 80px;
+   letter-spacing: 1px;
+   color: black;
+   border: 3px solid black; 
+}
+table ,th, td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 27px;
+    border-collapse: collapse;
+    border: 5px solid silver;
+    font-family: Elaphant;
+   
+}
+tr, th, td{
+    padding:  15px;
+}
+th{
+    background-color:cadetblue;
+    color: white;
+    font-family: arial black;
+}
+td{
+    background-color: #0024d0;
+    color: yellow;
+}
+td:hover{
+    background-color: brown;
+}
+.other-month{
+    background-color: palevioletred;
+}
