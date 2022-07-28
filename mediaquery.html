@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queary</title>
+    <link rel="shortcut icon" href="images/Tuhin Sarker.jpg" type="image/x-icon">
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .food{
+            border: 3px solid gray;
+            border-radius: 30px;
+            margin: 10px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width: 760px) {
+           .container{
+            flex-direction: column;
+           }
+            .container .food{
+                background-color: cadetblue;
+            }
+        }
+        @media (min-width: 1200px) {
+           .container .food{
+            background-color: skyblue;
+           } 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="food"><img src="images/food.jpg" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt assumenda in optio? Minus temporibus quaerat sunt nemo animi expedita tempora.</p>
+            </div>
+            <div class="food"><img src="images/food.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas magni accusantium commodi dolor? Dolor ipsa optio perspiciatis inventore sunt? Provident?</p>
+            </div>
+            <div class="food"><img src="images/food.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste blanditiis repellendus nam corporis praesentium odio fugiat officia consectetur corrupti esse!</p>
+            </div>
+            <div class="food"><img src="images/food.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus dicta perferendis consequuntur inventore corrupti mollitia veritatis eum dolores nisi voluptatum!</p>
+            </div>
+            <div class="food"><img src="images/food.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolorum alias cupiditate inventore sit iusto ducimus neque, optio aspernatur tempore.</p>
+            </div>
+            <div class="food"><img src="images/food.jpg" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus perspiciatis saepe recusandae hic accusantium quidem, debitis sapiente incidunt in cupiditate.</p>
+            </div>
+    </div>
+</body>
+</html>
